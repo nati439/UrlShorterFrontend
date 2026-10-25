@@ -1,0 +1,43 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+    box-sizing :border-box;
+}
+
+
+.containerform input {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 226, 226);
+    border: none;
+}
+
+.containerform input:focus {
+    outline: none;
+    
+}
+.containerform button{
+    padding: 9px;
+    background-color: rgb(105, 98, 236);
+    color: white;
+    cursor: pointer
+}
+.linkShort{
+    color: rgb(246, 255, 0);
+}
+
+@media (max-width: 825px) {
+    .containerform button{
+        width: 80%;
+        cursor: pointer
+    }
+}
