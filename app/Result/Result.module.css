@@ -41,3 +41,10 @@
         cursor: pointer
     }
 }
+
+.container button{
+    padding: 9px;
+    background-color: rgb(105, 98, 236);
+    color: white;
+    cursor: pointer
+}
