@@ -8,7 +8,7 @@ export default function page() {
               Your short url: 
           </h1>
           <div className={s.container}>
-              <span>short url will be here</span>
+              <div className={s.theshorturl}>short url will be here</div>
               <button>
                   copy
               </button>

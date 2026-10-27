@@ -4,47 +4,53 @@
     justify-content: center;
     align-items: center;
     height: 95vh;
+
+
+    
 }
 .container{
     background-color: white;
     padding: 30px;
     width: 50%;
     box-sizing :border-box;
+    display: flex;         /* 1. Added display flex */
+    align-items: center;   /* 2. Vertically centers button with box */
+   
 }
 
 
-.containerform input {
-    width: 80%;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: rgb(230, 226, 226);
-    border: none;
-}
-
-.containerform input:focus {
-    outline: none;
-    
-}
-.containerform button{
-    padding: 9px;
-    background-color: rgb(105, 98, 236);
-    color: white;
-    cursor: pointer
-}
 .linkShort{
     color: rgb(246, 255, 0);
 }
 
-@media (max-width: 825px) {
-    .containerform button{
-        width: 80%;
-        cursor: pointer
-    }
+
+
+
+
+.theshorturl{
+
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 226, 226);
 }
 
 .container button{
     padding: 9px;
     background-color: rgb(105, 98, 236);
     color: white;
-    cursor: pointer
+    cursor: pointer;
+    /* margin-left: 82%; */
+    
+}
+@media (max-width: 825px) {
+    .container {
+        flex-direction: column; /* Makes the box and button stack vertically */
+    }
+
+    .container button {
+        width: 80%; /* Or 80%, depending on how wide you want it */
+        cursor: pointer;
+        margin: 0px;
+    }
 }
