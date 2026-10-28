@@ -41,3 +41,9 @@
         cursor: pointer
     }
 }
+.madeby {
+  font-size: 0.8rem;
+  color: #4b0101;
+  text-align: center;
+  padding-bottom: 10px;
+}
